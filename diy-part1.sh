@@ -20,4 +20,4 @@ git clone https://github.com/fw876/helloworld.git package/helloworld
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/chenhw2/luci-app-koolproxy.git package/luci-app-koolproxy
 git clone https://github.com/pymumu/smartdns.git package/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdn
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
