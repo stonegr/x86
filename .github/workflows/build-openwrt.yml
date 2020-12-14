@@ -127,7 +127,7 @@ jobs:
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
         name: OpenWrt_base${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
-        path: openwrt/bin/packages/x86/64/base
+        path: openwrt/bin/packages/x86_64/base
         
     - name: Organize files
       id: organize
